@@ -1,0 +1,112 @@
+/* Shared styles for Citizen Help Hub – Pune */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #087f8f);
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #172554;
+    text-align: center;
+    padding: 14px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 9px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ffd166;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    background: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+/* COMING SOON (future pages) */
+.coming-soon {
+    max-width: 720px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px 28px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+.coming-soon h2 {
+    color: #1e3a8a;
+    margin-bottom: 12px;
+}
+
+.coming-soon p {
+    color: #555;
+}
+
+/* FOOTER */
+footer {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        font-size: 13px;
+        margin: 5px 6px;
+    }
+}
